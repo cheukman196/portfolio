@@ -23,11 +23,6 @@ export default function Sidebar({ activeSection, setActiveSection }: SidebarProp
             onClick={() => setActiveSection('projects')}>
             <a>PROJECTS</a>
             </div>
-          <div className={`pt-4 hover:text-teal-300 hover:translate-x-6 transition delay-100 cursor-pointer
-            ${activeSection === 'contact' ? 'text-teal-300 translate-x-6' : ''} `}
-            onClick={() => setActiveSection('contact')}>
-            <a>LET'S TALK</a>
-          </div>
           <div className="pt-4 hover:text-teal-300 hover:translate-x-6 transition delay-100 cursor-pointer">
             <a href="/public/documents/resume.pdf" target="_blank">MY RESUME</a>
           </div>
