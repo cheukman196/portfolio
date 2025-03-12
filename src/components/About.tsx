@@ -8,6 +8,7 @@ export default function About() {
                 and Analysis student. With three years of development experience, I have knowledge in developing full-scale web-apps, 
                 lightweight desktop apps, online management tools and databases. 
                 <br/>
+                <br/>
                 Bringing experience in software design and development, I am detail-oriented, goal-driven and thrive under pressure. 
                 As an motivated learner and an excellent team player, I seek to provide the best solutions that align with the objectives of the organization.    
             </p>
