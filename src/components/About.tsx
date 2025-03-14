@@ -1,16 +1,19 @@
 export default function About() {
   return (
     <>  
-
-        <div className="pt-4 text-white opacity-70 font-roboto font-[400] selection:bg-teal-300 selection:text-gray-800">
-            <p>I am a software engineer based in Toronto, Canada. I am experienced in back-end and full-stack development, 
-                often taking projects from design to delivery. Currently attending George Brown College as a Computer Programming 
-                and Analysis student. With three years of development experience, I have knowledge in developing full-scale web-apps, 
-                lightweight desktop apps, online management tools and databases. 
+        <div className="max-w-lg my-10 p-2 text-white opacity-70 font-roboto font-[400] selection:bg-sky-400 selection:text-gray-800">
+            <p>I am a software developer with a passion for realizing users' needs with creative solutions. With a good understanding,
+               of different languages and frameworks, I strive to use technology to create meaningful and impactful products that meet
+                the needs of others. 
                 <br/>
                 <br/>
-                Bringing experience in software design and development, I am detail-oriented, goal-driven and thrive under pressure. 
-                As an motivated learner and an excellent team player, I seek to provide the best solutions that align with the objectives of the organization.    
+                As a full-stack developer, I thrive on the ever-evolving nature of technology. I am deeply passionate about learning 
+                new tools, frameworks, and best practices to build modern, efficient, and user-friendly applications. 
+                <br/>
+                <br/>
+                I specialize in developing full-stack applications with technologies like React, Node.js and PostgreSQL, 
+                ensuring that every project is scalable and optimized. Beyond coding, I focus on communicating effectively with
+                team members and clients to ensure we work in tandem for the best results.
             </p>
         </div>
         

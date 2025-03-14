@@ -1,9 +1,14 @@
 export default function Skills() {
     return (
       <>
-        <div className="font-roboto text-white font-light text-[0.7rem] flex flex-wrap justify-center items-center">
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg className="w-12 h-12 rounded-md" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div className="text-2xl font-bold opacity-70 font-roboto text-white my-5">
+            Development Skills
+            <hr className="border-0 h-0.5 bg-gradient-to-r from-sky-800 to-gray-900"></hr>
+        </div>
+        
+        <section className="mb-5 font-roboto text-white font-light text-[0.7rem] flex flex-wrap justify-center items-center">
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10 rounded-md" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="js">
                     <g id="js_2">
                     <path id="Vector" d="M100 0.000488281H0V100H100V0.000488281Z" fill="#F7DF1E"/>
@@ -14,8 +19,8 @@ export default function Skills() {
                 <p>JavaScript</p>
             </div>
 
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg className="w-12 h-12 rounded-md" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10 rounded-md" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="typescript">
                     <g id="typescript_2">
                     <path id="Vector" d="M0 0.000488281H100V100H0V0.000488281Z" fill="#017ACB"/>
@@ -26,8 +31,8 @@ export default function Skills() {
                 <p>TypeScript</p>
             </div>
 
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg className="w-12 h-12" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="java">
                     <g id="java_2">
                     <path id="Vector" d="M36.7526 77.3362C36.7526 77.3362 32.9313 79.5584 39.4722 80.3103C47.3966 81.2143 51.4463 81.0848 60.179 79.4319C60.179 79.4319 62.475 80.8715 65.681 82.1185C46.1052 90.5083 21.3765 81.6324 36.7526 77.3362ZM34.3605 66.3878C34.3605 66.3878 30.0745 69.5605 36.6203 70.2375C45.0852 71.1107 51.77 71.1822 63.3375 68.9548C63.3375 68.9548 64.9375 70.5768 67.4533 71.4639C43.7846 78.3849 17.4221 72.0097 34.3605 66.3878Z" fill="#5382A1"/>
@@ -41,8 +46,8 @@ export default function Skills() {
                 <p>Java</p>
             </div>
 
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg className="w-12 h-12" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="csharp">
                     <g id="csharp_2">
                     <path id="Vector" d="M94.0943 29.111C94.0937 27.4461 93.7376 25.9749 93.0175 24.7126C92.3102 23.4707 91.2509 22.43 89.8301 21.6072C78.1017 14.8446 66.3619 8.10261 54.6374 1.33306C51.4765 -0.49178 48.4117 -0.424908 45.2743 1.42613C40.606 4.1789 17.2337 17.5694 10.2691 21.6035C7.40086 23.2642 6.00517 25.8053 6.00448 29.1079C6 42.708 6.00448 56.3081 6 69.9082C6 71.5366 6.3416 72.9795 7.02996 74.2229C7.73763 75.502 8.81171 76.5713 10.2653 77.4127C17.2303 81.4467 40.6057 94.8362 45.2729 97.59C48.4117 99.4421 51.4765 99.5083 54.6384 97.6831C66.3633 90.9132 78.1038 84.1712 89.8339 77.4086C91.2875 76.5675 92.3615 75.4976 93.0692 74.2194C93.7565 72.9757 94.0988 71.5332 94.0988 69.9045C94.0988 69.9045 94.0988 42.7115 94.0943 29.111Z" fill="#A179DC"/>
@@ -56,8 +61,8 @@ export default function Skills() {
                 <p>C#</p>
             </div>
 
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg className="w-12 h-12"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="python">
                     <g id="python_2">
                     <path id="Vector" d="M49.6397 0.000488281C24.2535 0.000488281 25.8385 11.0095 25.8385 11.0095L25.8667 22.4151H50.0924V25.8394H16.2447C16.2447 25.8394 0 23.9971 0 49.6116C0 75.2269 14.1788 74.3185 14.1788 74.3185H22.6406V62.432C22.6406 62.432 22.1844 48.2532 36.593 48.2532H60.6205C60.6205 48.2532 74.1199 48.4713 74.1199 35.2065V13.2739C74.1199 13.2739 76.1702 0.000488281 49.6397 0.000488281ZM36.2817 7.67056C36.8542 7.67004 37.4211 7.78242 37.9501 8.00125C38.4791 8.22009 38.9598 8.54109 39.3646 8.94589C39.7693 9.35068 40.0903 9.83133 40.3092 10.3603C40.528 10.8893 40.6404 11.4563 40.6399 12.0287C40.6404 12.6012 40.528 13.1681 40.3092 13.6971C40.0903 14.2261 39.7693 14.7068 39.3646 15.1116C38.9598 15.5164 38.4791 15.8374 37.9501 16.0562C37.4211 16.275 36.8542 16.3874 36.2817 16.3869C35.7092 16.3874 35.1423 16.275 34.6133 16.0562C34.0843 15.8374 33.6037 15.5164 33.1989 15.1116C32.7941 14.7068 32.4731 14.2261 32.2542 13.6971C32.0354 13.1681 31.923 12.6012 31.9235 12.0287C31.923 11.4563 32.0354 10.8893 32.2542 10.3603C32.4731 9.83133 32.7941 9.35068 33.1989 8.94589C33.6037 8.54109 34.0843 8.22009 34.6133 8.00125C35.1423 7.78242 35.7092 7.67004 36.2817 7.67056Z" fill="url(#paint0_linear_790_6849)"/>
@@ -78,8 +83,8 @@ export default function Skills() {
                 <p>Python</p>
             </div>
 
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg className="w-12 h-12" viewBox="0 0 101 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10" viewBox="0 0 101 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="reactjs">
                     <g id="reactjs_2">
                     <path id="Vector" d="M50.3067 58.8168C55.1758 58.8168 59.1229 54.8696 59.1229 50.0006C59.1229 45.1315 55.1758 41.1843 50.3067 41.1843C45.4376 41.1843 41.4905 45.1315 41.4905 50.0006C41.4905 54.8696 45.4376 58.8168 50.3067 58.8168Z" fill="#61DAFB"/>
@@ -92,8 +97,8 @@ export default function Skills() {
                 <p>ReactJS</p>
             </div>
 
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg className="w-12 h-12"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="nodejs">
                     <g id="nodejs_2">
                     <path id="Vector" d="M46.2785 1.06735C48.758 -0.351924 51.9876 -0.358335 54.465 1.06735C66.9286 8.10993 79.3961 15.1415 91.8576 22.1883C94.2014 23.5086 95.7692 26.1171 95.7454 28.8178V71.1886C95.7628 74.0012 94.0401 76.672 91.5673 77.9623C79.1447 84.9661 66.7285 91.9784 54.308 98.9821C51.7772 100.429 48.4827 100.318 46.031 98.7521C42.3067 96.5931 38.576 94.4447 34.8513 92.2879C34.0902 91.8341 33.2322 91.473 32.6948 90.735C33.1699 90.0947 34.0193 90.0149 34.7096 89.7353C36.2642 89.241 37.692 88.4475 39.1202 87.6775C39.4813 87.4303 39.9222 87.525 40.2684 87.7462C43.4531 89.5722 46.6097 91.4513 49.8051 93.2598C50.4868 93.6534 51.177 93.1309 51.7597 92.8061C63.9501 85.9163 76.1555 79.0525 88.3438 72.1606C88.7954 71.9433 89.0451 71.4639 89.0084 70.9692C89.0169 56.992 89.0105 43.0123 89.0126 29.035C89.0643 28.4737 88.7395 27.9576 88.232 27.7279C75.8524 20.7562 63.4793 13.7738 51.1019 6.80035C50.8874 6.65292 50.6334 6.57382 50.3732 6.57344C50.1129 6.57306 49.8587 6.65141 49.6438 6.79821C37.2664 13.7738 24.8954 20.7626 12.518 27.734C12.0123 27.9641 11.6728 28.4716 11.733 29.035C11.7352 43.0123 11.733 56.992 11.733 70.9714C11.7116 71.2127 11.7646 71.4549 11.8849 71.6652C12.0053 71.8756 12.1872 72.044 12.4062 72.1478C15.7091 74.0208 19.0164 75.8806 22.3215 77.7472C24.1834 78.7494 26.4696 79.3449 28.521 78.577C30.3314 77.9278 31.6003 76.0804 31.5658 74.1582C31.5829 60.2626 31.5573 46.3647 31.5786 32.4712C31.5334 31.8543 32.1185 31.3447 32.7183 31.4027C34.3053 31.392 35.8945 31.3814 37.4815 31.407C38.144 31.392 38.5998 32.0563 38.5179 32.6778C38.5115 46.6614 38.535 60.6454 38.5072 74.6291C38.5115 78.3559 36.9804 82.411 33.5332 84.2345C29.2864 86.4345 24.0374 85.9679 19.8419 83.8584C16.2099 82.0456 12.7438 79.9062 9.17621 77.9641C6.69702 76.6809 4.98286 73.9994 5.00031 71.189V28.8178C4.97431 26.0611 6.60442 23.4053 9.02128 22.1043C21.4418 15.0948 33.8601 8.08001 46.2785 1.06735Z" fill="#8CC84B"/>
@@ -104,15 +109,15 @@ export default function Skills() {
                 <p>NodeJS</p>
             </div>
 
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" className="w-12 h-12"  viewBox="0 0 80 80">
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" className="w-10 h-10"  viewBox="0 0 80 80">
                 <path fill="#b0c1d4" d="M74.01,62.5c-1.795,0-3.517-0.852-4.607-2.277L57.807,45.06L46.211,60.223 c-1.09,1.426-2.812,2.277-4.607,2.277h-3.428L54.66,40.944L38.261,19.5h3.428c1.795,0,3.518,0.851,4.607,2.276l11.51,15.052 l11.51-15.052c1.09-1.426,2.812-2.276,4.607-2.276h3.428L60.954,40.944L77.438,62.5H74.01z"></path><path fill="#66798f" d="M76.341,20L60.324,40.944L76.426,62H74.01c-1.651,0-3.207-0.769-4.21-2.081L57.807,44.237 L45.814,59.919C44.811,61.231,43.254,62,41.604,62h-2.417l16.102-21.056L39.273,20h2.417c1.651,0,3.207,0.769,4.21,2.081 l11.907,15.571l11.907-15.571C70.717,20.769,72.273,20,73.924,20H76.341 M78.364,19h-2.024h-2.417c-1.949,0-3.82,0.925-5.005,2.473 L57.807,36.005L46.694,21.473C45.51,19.925,43.639,19,41.689,19h-2.417h-2.024l1.229,1.607L54.03,40.944L38.393,61.393L37.163,63 h2.024h2.417c1.949,0,3.82-0.925,5.005-2.473l11.198-14.644l11.198,14.644C70.189,62.075,72.06,63,74.01,63h2.417h2.024 l-1.229-1.607L61.583,40.944l15.552-20.337L78.364,19L78.364,19z"></path><g><path fill="#b0c1d4" d="M20,64.5c-10.201,0-18.5-8.594-18.5-19.156v-8.689C1.5,26.093,9.799,17.5,20,17.5 s18.5,8.593,18.5,19.154v7.845L6.5,44.5v0.844C6.5,53.15,12.556,59.5,20,59.5c4.111,0,8.093-2.067,10.653-5.529 c1.161-1.571,2.86-2.472,4.661-2.472h1.711l0.204,0.204l0.134,0.268l-0.075,0.203C34.571,59.547,27.624,64.5,20,64.5z M33.5,39.5 v-2.846C33.5,28.85,27.444,22.5,20,22.5S6.5,28.85,6.5,36.655V39.5H33.5z"></path><path fill="#66798f" d="M20,18c9.925,0,18,8.369,18,18.654v7.345L6,44v1.344C6,53.426,12.28,60,20,60 c4.376,0,8.446-2.203,11.055-5.732c1.016-1.374,2.55-2.269,4.259-2.269l1.505,0C36.819,52,36.819,52,36.819,52.001 C34.175,59.176,27.411,64,20,64c-9.925,0-18-8.369-18-18.656v-8.689C2,26.369,10.075,18,20,18 M6,40h28v-3.346 C34,28.574,27.72,22,20,22S6,28.574,6,36.654V40 M20,17C9.523,17,1,25.817,1,36.654v8.689C1,56.182,9.523,65,20,65 c7.832,0,14.968-5.085,17.758-12.653l0.496-1.346l-1.435-0.002l-1.505,0c-1.961,0-3.806,0.975-5.063,2.675 C27.785,57.009,23.953,59,20,59c-7.168,0-13-6.126-13-13.656V45l31-0.001l1,0v-1v-7.345C39,25.817,30.477,17,20,17L20,17z M7,39 v-2.346C7,29.125,12.832,23,20,23s13,6.125,13,13.654V39H7L7,39z"></path></g>
                 </svg>
                 <p>ExpressJS</p>
             </div>
 
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg className="w-12 h-12"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="mongodb">
                     <g id="mongodb_2">
                     <path id="Vector" d="M50.1455 0.27356L52.8141 5.28569C53.414 6.21062 54.064 7.02931 54.8295 7.79175C57.074 10.0082 59.1661 12.3739 61.0916 14.8725C65.6131 20.8095 68.6629 27.4028 70.8409 34.5335C72.1471 38.8894 72.8564 43.3578 72.9095 47.8763C73.1282 61.3846 68.4973 72.9838 59.1605 82.6237C57.6417 84.1524 56.001 85.5548 54.2546 86.8171C53.3296 86.8171 52.8922 86.1078 52.511 85.4547C51.8167 84.2437 51.3547 82.9137 51.1486 81.5331C50.8205 79.8989 50.6048 78.2646 50.7111 76.5772V75.8148C50.6361 75.6523 49.8205 0.657906 50.1455 0.27356Z" fill="#599636"/>
@@ -124,8 +129,8 @@ export default function Skills() {
                 <p>MongoDB</p>
             </div>
 
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg className="w-12 h-12"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="postgresql">
                     <g id="postgresql_2">
                     <path id="Vector" d="M98.4716 59.9027C97.8902 58.137 96.3673 56.9072 94.3978 56.6121C93.4691 56.4731 92.4055 56.5323 91.1469 56.7925C88.9532 57.2464 87.3257 57.4192 86.138 57.4526C90.6212 49.8623 94.2667 41.2068 96.3654 33.059C99.759 19.8842 97.9455 13.8823 95.8264 11.1675C90.2183 3.98172 82.0361 0.121465 72.1652 0.00334804C66.8994 -0.0612175 62.2768 0.981325 59.8653 1.73104C57.62 1.33378 55.2059 1.11198 52.6728 1.07096C47.9244 0.994998 43.729 2.03298 40.1442 4.1663C38.1595 3.4933 34.9742 2.54457 31.2958 1.93917C22.6444 0.514935 15.6716 1.6247 10.5714 5.23771C4.3955 9.61221 1.53253 17.2127 2.06202 27.828C2.23018 31.1984 4.1103 41.4529 7.0706 51.178C8.77195 56.7678 10.5862 61.4097 12.4629 64.976C15.1243 70.033 17.9722 73.011 21.1692 74.0805C22.961 74.679 26.2168 75.0983 29.6411 72.2385C30.0751 72.7656 30.6542 73.2894 31.4227 73.7759C32.3987 74.3931 33.5922 74.8974 34.7841 75.1963C39.0795 76.273 43.1029 76.0038 46.5356 74.4945C46.5568 75.1067 46.573 75.6916 46.5867 76.1967C46.6094 77.0159 46.6321 77.8192 46.6621 78.5704C46.8654 83.6498 47.2101 87.5994 48.2312 90.3628C48.2873 90.5147 48.3626 90.7464 48.4422 90.9921C48.9516 92.5561 49.8034 95.1744 51.9706 97.2249C54.2147 99.3491 56.9292 100 59.4153 100C60.6622 100 61.8518 99.8364 62.8953 99.6123C66.6146 98.8129 70.8388 97.5952 73.8945 93.2321C76.7836 89.1075 78.188 82.8952 78.4422 73.1067C78.4751 72.8298 78.5054 72.5655 78.5346 72.3137L78.5952 71.7964L79.2758 71.8564L79.4512 71.8682C83.2394 72.0414 87.8715 71.2358 90.7163 69.9107C92.9642 68.8647 100.168 65.0512 98.4716 59.9027Z" fill="black"/>
@@ -138,8 +143,8 @@ export default function Skills() {
                 <p>PostgreSQL</p>
             </div>
 
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg className="w-12 h-12"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="mysql">
                     <g id="mysql_2">
                     <path id="Vector" d="M92.1104 77.0668C86.6696 76.9291 82.4527 77.4815 78.916 79.0001C77.8957 79.414 76.2632 79.4144 76.1272 80.7262C76.6713 81.2786 76.7394 82.1762 77.2155 82.9353C78.0325 84.3158 79.4598 86.1801 80.7522 87.1471C82.1802 88.2514 83.609 89.3558 85.1047 90.3224C87.7575 91.9795 90.7504 92.9458 93.3348 94.6029C94.8316 95.5687 96.3269 96.8123 97.8233 97.8476C98.5716 98.3992 99.0473 99.2976 100 99.6424V99.4357C99.5235 98.8139 99.3874 97.9167 98.9117 97.2262C98.2323 96.5358 97.5513 95.9143 96.8711 95.2239C94.8989 92.5319 92.4505 90.1843 89.7981 88.2514C87.6218 86.7324 82.8604 84.6614 81.9766 82.1067C81.9766 82.1067 81.9081 82.0381 81.8405 81.969C83.3366 81.831 85.1047 81.2786 86.5335 80.8643C88.8458 80.2425 90.9541 80.381 93.3348 79.7596C94.4227 79.4834 95.511 79.1382 96.599 78.7929V78.1719C95.3754 76.9291 94.4911 75.2724 93.1987 74.0986C89.7301 71.0602 85.921 68.092 81.9766 65.6068C79.8679 64.2258 77.1471 63.3282 74.9028 62.1549C74.0874 61.7402 72.7266 61.5334 72.2508 60.843C71.026 59.3244 70.3458 57.3224 69.462 55.5272C67.4902 51.7297 65.5852 47.5187 63.8847 43.5148C62.6611 40.8221 61.9129 38.1293 60.4164 35.6444C53.4111 23.9078 45.7936 16.7969 34.0957 9.82362C31.5789 8.37406 28.5864 7.75264 25.3898 6.99354C23.6901 6.92409 21.9892 6.7864 20.2891 6.71696C19.2008 6.23363 18.1124 4.92216 17.1602 4.30075C13.2842 1.81509 3.28555 -3.5693 0.429089 3.54164C-1.40746 8.02883 3.1499 12.447 4.71359 14.7259C5.87072 16.3135 7.36639 18.1083 8.18263 19.9035C8.65877 21.0765 8.79443 22.3201 9.27057 23.5626C10.3593 26.5994 11.3788 29.983 12.8076 32.8139C13.5559 34.2635 14.3717 35.7821 15.324 37.094C15.8682 37.8531 16.8201 38.1987 17.0245 39.4411C16.0726 40.8221 16.0042 42.8934 15.4596 44.6192C13.0113 52.4206 13.964 62.0858 17.4322 67.8158C18.5202 69.5412 21.1049 73.3395 24.5736 71.8891C27.6345 70.6467 26.9543 66.7115 27.8378 63.2596C28.0426 62.4303 27.9066 61.8787 28.3143 61.3263V61.4648C29.2666 63.3973 30.2185 65.2619 31.1028 67.1948C33.2114 70.5773 36.8837 74.0986 39.9442 76.4462C41.5771 77.6882 42.8691 79.8286 44.9097 80.5881V80.3806H44.7733C44.3652 79.7592 43.753 79.4834 43.2092 78.9997C41.9852 77.7576 40.6245 76.2386 39.6726 74.8577C36.8165 70.9911 34.2993 66.7111 32.0551 62.2926C30.9671 60.1529 30.0144 57.8054 29.1306 55.6653C28.7221 54.836 28.7221 53.594 28.0422 53.1801C27.0219 54.6987 25.5259 56.0106 24.7777 57.8744C23.486 60.843 23.3496 64.502 22.8735 68.2988C22.6014 68.3686 22.737 68.2988 22.601 68.4376C20.4251 67.8845 19.6769 65.6068 18.8603 63.6735C16.8197 58.772 16.4796 50.9016 18.2485 45.2406C18.7246 43.7906 20.7652 39.2344 19.949 37.8535C19.5409 36.5416 18.1801 35.7821 17.4322 34.7468C16.5484 33.4349 15.5957 31.7786 14.9839 30.3283C13.3514 26.4621 12.5352 22.1817 10.767 18.3155C9.95077 16.5203 8.52312 14.6568 7.36639 12.9997C6.07439 11.1359 4.64596 9.82362 3.62566 7.61455C3.28595 6.85544 2.80941 5.61262 3.35357 4.78407C3.48962 4.2317 3.76131 4.02496 4.30586 3.88687C5.19013 3.12697 7.70688 4.09361 8.59036 4.50788C11.1071 5.54278 13.2154 6.51022 15.324 7.95978C16.2759 8.65024 17.2962 9.96211 18.5202 10.3073H19.9486C22.1252 10.7903 24.5732 10.4454 26.6138 11.0665C30.2189 12.2398 33.4831 13.966 36.408 15.8302C45.3179 21.5602 52.6625 29.7069 57.628 39.4411C58.4442 41.0284 58.7839 42.4792 59.5322 44.1355C60.961 47.5187 62.7291 50.9706 64.1568 54.2844C65.5852 57.5288 66.9452 60.843 68.9858 63.5358C70.0061 64.985 74.0866 65.7449 75.9231 66.5044C77.2835 67.1254 79.3922 67.6781 80.6161 68.4372C82.9284 69.8864 85.2407 71.5443 87.4174 73.1316C88.5057 73.9601 91.906 75.6863 92.1104 77.0668Z" fill="#00546B"/>
@@ -150,8 +155,8 @@ export default function Skills() {
                 <p>MySQL</p>
             </div>
 
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg className="w-12 h-12"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="html5">
                     <g id="html5_2">
                     <path id="Vector" d="M14.0214 90.0345L6 0.000488281H94.1867L86.1653 89.9859L50.0204 100" fill="#E44D26"/>
@@ -164,8 +169,8 @@ export default function Skills() {
                 <p>HTML</p>
             </div>
             
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg className="w-12 h-12"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="css3">
                     <g id="css3_2">
                     <path id="polygon2989" d="M94.1749 0.000488281L86.142 89.99L50.0335 100L14.0245 90.0041L6 0.000488281H94.1749Z" fill="#264DE4"/>
@@ -180,8 +185,8 @@ export default function Skills() {
                 <p>CSS</p>
             </div>
 
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg className="w-12 h-12"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="tailwindcss">
                 <g id="tailwindcss_2">
                 <path id="Vector" d="M50.0002 20.0005C36.6665 20.0005 28.3334 26.6655 24.9996 39.9942C30.0002 33.3292 35.8337 30.8308 42.4999 32.4964C46.3039 33.4468 49.0224 36.2065 52.0323 39.2602C56.9341 44.2345 62.6075 49.9917 75.0009 49.9917C88.3334 49.9917 96.6677 43.3267 100 29.9967C95.0009 36.6617 89.1674 39.1614 82.4999 37.4958C78.6973 36.5454 75.9787 33.7856 72.9689 30.732C68.067 25.7576 62.3924 20.0005 50.0002 20.0005ZM24.9996 49.9917C11.6671 49.9917 3.33274 56.6567 0.000244141 69.9866C4.99962 63.3217 10.8331 60.822 17.5006 62.4888C21.3032 63.4405 24.0218 66.199 27.0316 69.2514C31.9335 74.2257 37.6081 79.9841 50.0002 79.9841C63.334 79.9841 71.6671 73.3191 75.0009 59.9892C70.0002 66.6542 64.1668 69.1538 57.5006 67.487C53.6966 66.5379 50.9781 63.7768 47.9682 60.7244C43.0664 55.7501 37.393 49.9917 24.9996 49.9917Z" fill="#06B6D4"/>
@@ -191,22 +196,31 @@ export default function Skills() {
                 <p>Tailwindcss</p>
             </div>
 
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg className="w-12 h-12" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
                     <path d="M465.42 30.092c-7.322 17.802-16.791 33.584-27.27 47.725C391.94 30.723 327.295.8 255.96.8 115.815.8 1.3 114.684 1.3 255.334c0 73.482 31.438 139.64 81.31 186.355l9.469 8.46c44.063 37.245 101.384 59.845 163.755 59.845 133.833 0 244.055-104.414 253.524-236.226 7.576-64.013-11.868-145.953-43.937-243.676zM119.478 443.836c-7.323 9.47-20.96 10.48-30.428 3.156-9.47-7.323-10.48-20.958-3.157-30.428 7.323-9.469 20.959-10.48 30.428-3.156 8.964 7.323 10.48 20.959 3.157 30.428zm344.429-76.133c-62.498 83.456-196.835 55.174-282.437 59.34 0 0-15.277 1.01-30.428 3.157 0 0 5.808-2.651 13.13-5.303 60.351-20.958 88.76-25.251 125.5-44.063 68.81-35.226 137.494-112.37 151.256-192.164-26.262 76.638-106.056 142.797-178.528 169.564-49.871 18.433-139.64 36.235-139.64 36.235l-3.661-2.146c-60.856-29.923-63.002-162.24 48.356-204.789 48.862-18.938 95.072-8.46 148.1-20.959 56.184-13.13 121.333-55.174 147.468-110.222 29.165 88.759 64.896 226.253.884 311.35z" fill="#6cb52d" fill-rule="nonzero"/><path d="M119.477 443.836c-7.323 9.47-20.96 10.48-30.428 3.156-9.47-7.323-10.48-20.958-3.157-30.428 7.323-9.469 20.959-10.48 30.428-3.156 8.964 7.323 10.48 20.959 3.157 30.428zM463.906 367.703c-62.498 83.456-196.835 55.174-282.437 59.34 0 0-15.277 1.01-30.428 3.157 0 0 5.808-2.651 13.13-5.303 60.351-20.958 88.76-25.251 125.5-44.063 68.81-35.226 137.494-112.37 151.256-192.164-26.262 76.638-106.056 142.797-178.528 169.564-49.871 18.433-139.64 36.235-139.64 36.235l-3.661-2.146c-60.856-29.923-63.002-162.24 48.356-204.789 48.862-18.938 95.072-8.46 148.1-20.959 56.184-13.13 121.333-55.174 147.468-110.222 29.165 88.759 64.896 226.253.884 311.35z" fill="#fff" fill-rule="nonzero"/>
                 </svg>
                 <p>Spring Boot</p>
             </div>
 
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg className="w-12 h-12 rounded-md" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10 rounded-md" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
                     <path fill="#512bd4" d="M-.134-.326h512.002v512.002H-.134z"/><path d="M91.122 326.786c-3.62 0-6.698-1.206-9.232-3.619-2.534-2.475-3.8-5.413-3.8-8.815 0-3.465 1.266-6.434 3.8-8.908 2.534-2.475 5.612-3.712 9.232-3.712 3.68 0 6.787 1.237 9.321 3.712 2.595 2.474 3.892 5.443 3.892 8.908 0 3.402-1.297 6.34-3.892 8.815-2.534 2.413-5.64 3.619-9.321 3.619zM235.844 324.745h-23.532l-61.996-97.807a43.764 43.764 0 01-3.892-7.703h-.543c.483 2.847.724 8.94.724 18.28v87.23h-20.817v-133.07h25.07l59.916 95.487c2.534 3.96 4.163 6.682 4.887 8.166h.362c-.603-3.525-.905-9.495-.905-17.91v-85.743h20.726v133.07zM337.213 324.745h-72.856v-133.07h69.96v18.745h-48.42v37.675h44.62v18.652h-44.62v39.346h51.316v18.652zM440.757 210.42h-37.289v114.325h-21.54V210.42H344.73v-18.745h96.027v18.745z" fill="#fff" fill-rule="nonzero"/>
                 </svg>
                 <p>.NET</p>
             </div>
 
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg className="w-12 h-12" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        </section>
+
+        <div className="text-2xl font-bold opacity-70 font-roboto text-white my-5 text-right">
+            DevOps and Others 
+            <hr className="border-0 h-0.5 bg-gradient-to-r  from-gray-900 to-sky-800"></hr>
+        </div>
+
+        <section className="mb-5 font-roboto text-white font-light text-[0.7rem] flex flex-wrap justify-center items-center">
+
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="git">
                     <g id="git_2">
                     <path id="Vector" d="M98.1141 45.5449L54.4531 1.88633C51.9402 -0.628125 47.8621 -0.628125 45.3461 1.88633L36.2797 10.9527L47.7809 22.4539C50.4535 21.5508 53.5184 22.1566 55.6488 24.2871C57.7894 26.4312 58.391 29.5223 57.466 32.2035L68.55 43.2879C71.2316 42.3641 74.3258 42.9617 76.4676 45.107C79.4609 48.0992 79.4609 52.9488 76.4676 55.943C73.4734 58.9375 68.6238 58.9375 65.6281 55.943C63.3766 53.6891 62.8203 50.3824 63.9602 47.6086L53.6234 37.2719L53.6223 64.4738C54.3716 64.8443 55.056 65.3337 55.6488 65.923C58.6422 68.9152 58.6422 73.7652 55.6488 76.7617C52.6547 79.7547 47.8027 79.7547 44.8129 76.7617C41.8195 73.7652 41.8195 68.9156 44.8129 65.9234C45.5302 65.2057 46.3827 64.6374 47.3211 64.2512V36.7957C46.3814 36.4121 45.5284 35.8434 44.8129 35.1234C42.5449 32.8586 41.9996 29.5309 43.1617 26.7461L31.8242 15.4074L1.88672 45.343C-0.628906 47.8598 -0.628906 51.9383 1.88672 54.4531L45.5484 98.1125C48.0621 100.627 52.1395 100.627 54.6562 98.1125L98.1137 54.6559C100.629 52.1402 100.629 48.0594 98.1141 45.5449Z" fill="#DE4C36"/>
@@ -216,8 +230,8 @@ export default function Skills() {
                 <p>Git</p>
             </div>
 
-            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:shadow-sm hover:bg-gray-800/30 transition delay-150">
-                <svg className="w-12 h-12" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="docker">
                     <g id="docker_2">
                     <path id="Vector" d="M99.014 41.0887C98.7428 40.8733 96.211 38.9616 90.8716 38.9616C89.4617 38.9678 88.0548 39.0887 86.6646 39.3232C85.6312 32.2401 79.7751 28.7867 79.5125 28.6318L78.0788 27.8049L77.1358 29.1657C75.9549 30.9936 75.0928 33.0086 74.5867 35.125C73.6307 39.1683 74.2121 42.966 76.266 46.2127C73.7858 47.5948 69.8072 47.9351 69.002 47.9651H3.13051C1.40996 47.9675 0.0138216 49.3579 0.00444499 51.0783C-0.0723876 56.849 0.905303 62.5853 2.88937 68.0047C5.15852 73.9555 8.5344 78.3389 12.9264 81.0215C17.8481 84.0356 25.8441 85.7579 34.908 85.7579C39.0026 85.7708 43.0896 85.4002 47.1152 84.6513C52.7113 83.6238 58.0961 81.6679 63.047 78.8641C67.1264 76.5018 70.7979 73.4965 73.9194 69.9639C79.1382 64.0562 82.2472 57.4767 84.5593 51.6295H85.4807C91.1946 51.6295 94.7083 49.343 96.6459 47.4269C97.9336 46.2049 98.9389 44.7162 99.5912 43.0651L100 41.8681L99.014 41.0887Z" fill="#2496ED"/>
@@ -236,7 +250,88 @@ export default function Skills() {
                 <p>Docker</p>
             </div>
 
-        </div>
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="canva">
+                    <g id="canva_2">
+                    <path id="Vector" d="M50 99.9996C77.6142 99.9996 100 77.6139 100 49.9996C100 22.3854 77.6142 -0.000366211 50 -0.000366211C22.3858 -0.000366211 0 22.3854 0 49.9996C0 77.6139 22.3858 99.9996 50 99.9996Z" fill="#7D2AE7"/>
+                    <path id="Vector_2" d="M50 99.9996C77.6142 99.9996 100 77.6139 100 49.9996C100 22.3854 77.6142 -0.000366211 50 -0.000366211C22.3858 -0.000366211 0 22.3854 0 49.9996C0 77.6139 22.3858 99.9996 50 99.9996Z" fill="url(#paint0_radial_790_414)"/>
+                    <path id="Vector_3" d="M50 99.9996C77.6142 99.9996 100 77.6139 100 49.9996C100 22.3854 77.6142 -0.000366211 50 -0.000366211C22.3858 -0.000366211 0 22.3854 0 49.9996C0 77.6139 22.3858 99.9996 50 99.9996Z" fill="url(#paint1_radial_790_414)"/>
+                    <path id="Vector_4" d="M50 99.9996C77.6142 99.9996 100 77.6139 100 49.9996C100 22.3854 77.6142 -0.000366211 50 -0.000366211C22.3858 -0.000366211 0 22.3854 0 49.9996C0 77.6139 22.3858 99.9996 50 99.9996Z" fill="url(#paint2_radial_790_414)"/>
+                    <path id="Vector_5" d="M50 99.9996C77.6142 99.9996 100 77.6139 100 49.9996C100 22.3854 77.6142 -0.000366211 50 -0.000366211C22.3858 -0.000366211 0 22.3854 0 49.9996C0 77.6139 22.3858 99.9996 50 99.9996Z" fill="url(#paint3_radial_790_414)"/>
+                    <path id="Vector_6" d="M71.5863 60.2564C71.1736 60.2564 70.8105 60.6048 70.4326 61.3659C66.1652 70.019 58.7947 76.1417 50.2655 76.1417C40.4034 76.1417 34.2961 67.239 34.2961 54.9401C34.2961 34.1067 45.9039 22.0613 56.0994 22.0613C60.8636 22.0613 63.7731 25.0553 63.7731 29.8197C63.7731 35.4744 60.5605 38.4684 60.5605 40.4627C60.5605 41.3579 61.1173 41.8999 62.2215 41.8999C66.6578 41.8999 71.8647 36.8023 71.8647 29.6009C71.8647 22.6183 65.7873 17.4858 55.5921 17.4858C38.7423 17.4858 23.7676 33.1071 23.7676 54.7211C23.7676 71.4517 33.3214 82.5075 48.0624 82.5075C63.7084 82.5075 72.7552 66.9406 72.7552 61.888C72.7552 60.769 72.1831 60.2564 71.5863 60.2564Z" fill="white"/>
+                    </g>
+                    </g>
+                    <defs>
+                    <radialGradient id="paint0_radial_790_414" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.3162 88.6318) rotate(-49.416) scale(77.3416)">
+                    <stop stop-color="#6420FF"/>
+                    <stop offset="1" stop-color="#6420FF" stop-opacity="0"/>
+                    </radialGradient>
+                    <radialGradient id="paint1_radial_790_414" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26.4735 11.3678) rotate(54.703) scale(87.2168)">
+                    <stop stop-color="#00C4CC"/>
+                    <stop offset="1" stop-color="#00C4CC" stop-opacity="0"/>
+                    </radialGradient>
+                    <radialGradient id="paint2_radial_790_414" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.3158 88.6312) rotate(-45.1954) scale(76.4053 35.1398)">
+                    <stop stop-color="#6420FF"/>
+                    <stop offset="1" stop-color="#6420FF" stop-opacity="0"/>
+                    </radialGradient>
+                    <radialGradient id="paint3_radial_790_414" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(40.8947 13.4733) rotate(66.5198) scale(78.7295 131.889)">
+                    <stop stop-color="#00C4CC" stop-opacity="0.725916"/>
+                    <stop offset="0.0001" stop-color="#00C4CC"/>
+                    <stop offset="1" stop-color="#00C4CC" stop-opacity="0"/>
+                    </radialGradient>
+                    </defs>
+                </svg>
+                <p>Canva</p>
+            </div>
+            
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="figma">
+                    <g id="figma_2">
+                    <path id="Vector" d="M33.3334 100.001C42.5334 100.001 50.0001 92.5339 50.0001 83.3339V66.6672H33.3334C24.1334 66.6672 16.6667 74.1339 16.6667 83.3339C16.6667 92.5339 24.1334 100.001 33.3334 100.001Z" fill="#0ACF83"/>
+                    <path id="Vector_2" d="M16.6667 50.0004C16.6667 40.8004 24.1334 33.3337 33.3334 33.3337H50.0001V66.667H33.3334C24.1334 66.667 16.6667 59.2004 16.6667 50.0004Z" fill="#A259FF"/>
+                    <path id="Vector_3" d="M16.6667 16.6671C16.6667 7.46715 24.1334 0.000488281 33.3334 0.000488281H50.0001V33.3338H33.3334C24.1334 33.3338 16.6667 25.8671 16.6667 16.6671Z" fill="#F24E1E"/>
+                    <path id="Vector_4" d="M50 0.000488281H66.6667C75.8667 0.000488281 83.3334 7.46715 83.3334 16.6671C83.3334 25.8671 75.8667 33.3338 66.6667 33.3338H50V0.000488281Z" fill="#FF7262"/>
+                    <path id="Vector_5" d="M83.3334 50.0004C83.3334 59.2004 75.8667 66.667 66.6667 66.667C57.4667 66.667 50 59.2004 50 50.0004C50 40.8004 57.4667 33.3337 66.6667 33.3337C75.8667 33.3337 83.3334 40.8004 83.3334 50.0004Z" fill="#1ABCFE"/>
+                    </g>
+                    </g>
+                </svg>
+                <p>Figma</p>
+            </div>
+
+            <div className="bg-gray-800/40 rounded-2xl flex flex-col justify-center items-center p-3 m-2 min-w-20 max-w-sm max-h-sm hover:bg-sky-400/20 hover:scale-105 transition">
+                <svg className="w-10 h-10" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="postman">
+                    <g id="postman_2">
+                    <path id="Vector" d="M89.5728 19.4399C83.5282 11.6126 75.2981 5.75362 65.9235 2.60398C56.5488 -0.545654 46.4507 -0.84447 36.9062 1.74533C27.3617 4.33512 18.7996 9.6972 12.3027 17.1534C5.80588 24.6096 1.66609 33.825 0.406949 43.6341C-0.852194 53.4433 0.825867 63.4055 5.2289 72.2608C9.63194 81.1162 16.5622 88.4669 25.1431 93.3834C33.7241 98.2999 43.5703 100.561 53.4365 99.8814C63.3027 99.2016 72.7457 95.6112 80.5713 89.5643C102.415 72.6832 106.446 41.2913 89.5712 19.4399H89.5728Z" fill="#FF6C37"/>
+                    <path id="Vector_2" d="M66.8634 31.8587L45.7808 53.1085L39.8231 46.9836C60.5728 26.2337 62.6556 28.1087 66.8649 31.8587H66.8634Z" fill="white"/>
+                    <path id="Vector_3" d="M45.781 53.6896C45.5942 53.685 45.4159 53.6109 45.281 53.4818L39.281 47.4818C39.1459 47.342 39.0704 47.1552 39.0704 46.9608C39.0704 46.7663 39.1459 46.5795 39.281 46.4397C59.7387 25.982 62.5308 26.9398 67.3636 31.3148C67.4445 31.3796 67.5092 31.4623 67.5526 31.5564C67.596 31.6505 67.6169 31.7534 67.6136 31.857C67.6448 32.0601 67.5667 32.2679 67.4058 32.3992L46.3232 53.4834C46.1753 53.6189 45.9815 53.6932 45.781 53.6912V53.6896ZM40.8638 46.9818L45.781 51.899L65.7808 31.8992C65.0903 31.0338 64.1049 30.4533 63.0133 30.2688C61.9216 30.0843 60.8002 30.3088 59.8637 30.8992C56.2387 32.5242 50.4059 37.4819 40.8638 46.9818Z" fill="#FF6C37"/>
+                    <path id="Vector_4" d="M51.823 58.9833L46.073 53.1084L67.1557 32.2743C72.8229 37.8164 64.4057 47.0663 51.823 58.9817V58.9833Z" fill="white"/>
+                    <path id="Vector_5" d="M51.8231 59.7333C51.6387 59.7186 51.4636 59.6459 51.3231 59.5255L45.4482 53.7756C45.3601 53.5619 45.3601 53.322 45.4482 53.1084C45.3857 52.933 45.3857 52.7415 45.4482 52.5662L66.5308 31.4836C66.6774 31.3459 66.871 31.2692 67.0722 31.2692C67.2734 31.2692 67.467 31.3459 67.6136 31.4836C68.2964 32.112 68.8358 32.8801 69.1952 33.7356C69.5546 34.5911 69.7255 35.5139 69.6964 36.4414C69.6964 42.0663 63.2793 49.149 52.3637 59.4833C52.2179 59.6276 52.026 59.7161 51.8216 59.7333H51.8231ZM47.156 53.1084L51.8637 57.8146C60.1965 49.9397 68.1558 41.8148 68.1964 36.3148C68.2417 35.1489 67.8563 34.007 67.1136 33.107L47.156 53.1084Z" fill="#FF6C37"/>
+                    <path id="Vector_6" d="M39.9888 47.1084L44.1559 51.2756C44.1825 51.299 44.2038 51.3279 44.2184 51.3602C44.233 51.3926 44.2406 51.4276 44.2406 51.4631C44.2406 51.4986 44.233 51.5336 44.2184 51.5659C44.2038 51.5983 44.1825 51.6271 44.1559 51.6506L35.3638 53.5256C35.1864 53.5639 35.0012 53.5431 34.8366 53.4665C34.672 53.3898 34.537 53.2615 34.4521 53.1011C34.3671 52.9406 34.337 52.7567 34.3662 52.5775C34.3954 52.3983 34.4824 52.2336 34.6139 52.1084L39.7388 47.0256C39.7388 47.0256 39.906 47.0256 39.9888 47.1084Z" fill="white"/>
+                    <path id="Vector_7" d="M35.156 54.3584C34.8782 54.3549 34.6059 54.2803 34.3652 54.1416C34.1245 54.0029 33.9234 53.8048 33.781 53.5662C33.6208 53.264 33.5627 52.9181 33.6153 52.5802C33.668 52.2422 33.8286 51.9304 34.0732 51.6913L39.1559 46.5663C39.3392 46.4025 39.5765 46.3119 39.8223 46.3119C40.0682 46.3119 40.3054 46.4025 40.4887 46.5663L44.6559 50.7334C44.9027 50.9678 44.9996 51.3225 44.9059 51.6506C44.8121 51.9787 44.5371 52.2397 44.1981 52.3178L35.406 54.1928L35.156 54.3584ZM39.8231 48.0257L35.1154 52.7334L42.9074 51.0663L39.8231 48.0257Z" fill="#FF6C37"/>
+                    <path id="Vector_8" d="M78.073 20.1494C75.0573 17.24 70.3198 17.1182 67.1573 19.8635C63.9948 22.6087 63.4541 27.3212 65.9166 30.7118C68.3792 34.1024 73.0214 35.0524 76.6152 32.8993L70.9479 27.2321L78.073 20.1494Z" fill="white"/>
+                    <path id="Vector_9" d="M72.448 34.8148C70.7154 34.7926 69.0277 34.2611 67.5951 33.2864C66.1626 32.3117 65.0485 30.937 64.3917 29.3336C63.7354 27.7314 63.5633 25.972 63.8965 24.273C64.2298 22.5739 65.0538 21.0099 66.2667 19.7743C67.9349 18.1368 70.1791 17.2194 72.5167 17.2194C74.8543 17.2194 77.0986 18.1368 78.7667 19.7743C78.9261 19.9087 79.0167 20.1071 79.0167 20.3165C79.0163 20.4195 78.9938 20.5212 78.9507 20.6148C78.9076 20.7083 78.8448 20.7915 78.7667 20.8587L72.0167 27.2336L77.1417 32.2758C77.2248 32.3551 77.2871 32.4535 77.3233 32.5625C77.3596 32.6714 77.3686 32.7876 77.3495 32.9008C77.3372 33.01 77.301 33.1152 77.2435 33.2089C77.186 33.3026 77.1086 33.3825 77.0167 33.443C75.6399 34.3036 74.0571 34.7785 72.4339 34.818L72.448 34.8148ZM72.448 18.6478C69.4792 18.6634 66.823 20.4493 65.7089 23.179C64.5949 25.9087 65.2011 29.0508 67.2824 31.1477C68.3176 32.1889 69.6431 32.8932 71.0853 33.1684C72.5276 33.4436 74.0193 33.2768 75.3652 32.6899L70.448 27.7727C70.3698 27.7102 70.3067 27.6309 70.2633 27.5407C70.22 27.4505 70.1975 27.3517 70.1975 27.2516C70.1975 27.1515 70.22 27.0527 70.2633 26.9625C70.3067 26.8723 70.3698 26.793 70.448 26.7305L76.948 20.1884C75.6559 19.1981 74.0759 18.6566 72.448 18.6462V18.6478Z" fill="#FF6C37"/>
+                    <path id="Vector_10" d="M78.1977 20.2743L71.0729 27.357L76.7399 33.0241C77.3103 32.6967 77.8414 32.3051 78.3227 31.857C79.808 30.287 80.6252 28.2014 80.6019 26.0404C80.5786 23.8793 79.7165 21.8118 78.1977 20.2743Z" fill="white"/>
+                    <path id="Vector_11" d="M76.6135 33.6493C76.5199 33.6544 76.4263 33.6383 76.3398 33.6023C76.2532 33.5664 76.1759 33.5114 76.1135 33.4415L70.4463 27.7743C70.3682 27.7118 70.3051 27.6325 70.2617 27.5423C70.2183 27.4521 70.1958 27.3533 70.1958 27.2532C70.1958 27.1532 70.2183 27.0544 70.2617 26.9641C70.3051 26.8739 70.3682 26.7947 70.4463 26.7322L77.5291 19.7744C77.5975 19.6712 77.6904 19.5866 77.7994 19.5281C77.9085 19.4696 78.0303 19.439 78.1541 19.439C78.2778 19.439 78.3997 19.4696 78.5087 19.5281C78.6178 19.5866 78.7107 19.6712 78.7791 19.7744C79.6106 20.5891 80.2711 21.5615 80.7221 22.6347C81.173 23.7079 81.4053 24.8603 81.4053 26.0243C81.4053 27.1884 81.173 28.3408 80.7221 29.414C80.2711 30.4872 79.6106 31.4596 78.7791 32.2743C78.2886 32.7945 77.7274 33.2432 77.1119 33.6071C76.9569 33.6852 76.7778 33.7003 76.6119 33.6493H76.6135ZM72.0307 27.2337L76.7385 31.9415C77.0623 31.7145 77.3689 31.4638 77.6556 31.1915C79.0396 29.8113 79.8191 27.9382 79.8228 25.9837C79.826 24.2346 79.1885 22.5448 78.0306 21.2338L72.0307 27.2337Z" fill="#FF6C37"/>
+                    <path id="Vector_12" d="M67.7386 32.7336C67.1742 32.2037 66.4292 31.9087 65.655 31.9087C64.8808 31.9087 64.1358 32.2037 63.5714 32.7336L44.6981 51.5648L47.8231 54.732L67.7808 37.2321C68.0851 36.9404 68.3265 36.5894 68.4902 36.2009C68.6538 35.8124 68.7362 35.3945 68.7322 34.9729C68.7283 34.5514 68.6381 34.1351 68.4672 33.7497C68.2963 33.3643 68.0483 33.018 67.7386 32.7321V32.7336Z" fill="white"/>
+                    <path id="Vector_13" d="M47.6559 55.4834C47.4692 55.4788 47.2909 55.4047 47.1559 55.2756L43.9888 52.1085C43.8537 51.9686 43.7782 51.7818 43.7782 51.5874C43.7782 51.3929 43.8537 51.2061 43.9888 51.0663L62.8636 32.2743C63.4073 31.7313 64.1015 31.3641 64.8564 31.2205C65.6112 31.0768 66.3918 31.1632 67.0969 31.4685C67.802 31.7739 68.3991 32.284 68.8108 32.9328C69.2225 33.5815 69.4298 34.339 69.4057 35.107C69.3841 35.6283 69.2587 36.1401 69.0368 36.6123C68.8149 37.0845 68.501 37.5076 68.1136 37.857L48.1559 55.3569C48.0108 55.4596 47.8324 55.5042 47.6559 55.4819V55.4834ZM45.4482 51.5647L47.5309 53.6897L67.1136 36.6477C67.598 36.2258 67.887 35.6227 67.9058 34.9805C67.9245 34.3383 67.6714 33.7102 67.198 33.2727C66.7608 32.8373 66.1689 32.5929 65.5519 32.5929C64.9349 32.5929 64.343 32.8373 63.9058 33.2727L45.4482 51.5647Z" fill="#FF6C37"/>
+                    <path id="Vector_14" d="M30.0733 73.0239C30.02 73.0964 29.9913 73.184 29.9913 73.2739C29.9913 73.3639 30.02 73.4515 30.0733 73.5239L30.9061 77.1489C30.9395 77.3622 30.9079 77.5807 30.8153 77.7757C30.7228 77.9708 30.5737 78.1335 30.3874 78.2427C30.2017 78.3512 29.9864 78.3981 29.7725 78.3765C29.5585 78.3549 29.3569 78.2659 29.1968 78.1223L23.489 72.6224L41.281 54.6897H47.4481L51.6152 58.8569C45.1149 64.5403 37.8669 69.3069 30.0733 73.0239Z" fill="white"/>
+                    <path id="Vector_15" d="M29.6983 79.1488C29.2264 79.1394 28.7608 78.9457 28.4483 78.6066L22.9905 73.1488C22.9124 73.0863 22.8492 73.0071 22.8059 72.9169C22.7625 72.8266 22.74 72.7278 22.74 72.6278C22.74 72.5277 22.7625 72.4289 22.8059 72.3387C22.8492 72.2485 22.9124 72.1692 22.9905 72.1067L40.906 54.149C41.0063 54.0424 41.1374 53.9698 41.281 53.9412H47.4887C47.6505 53.884 47.827 53.884 47.9887 53.9412L52.1559 58.1084C52.2351 58.1814 52.2954 58.2726 52.3316 58.3741C52.3678 58.4757 52.3788 58.5845 52.3637 58.6912C52.3666 58.7947 52.3456 58.8975 52.3022 58.9916C52.2589 59.0856 52.1943 59.1684 52.1137 59.2334L51.7809 59.5255C45.2543 64.9666 38.0738 69.5715 30.4061 73.2332L31.1983 76.6082C31.2595 76.8685 31.2618 77.1393 31.2051 77.4007C31.1484 77.662 31.034 77.9075 30.8704 78.119C30.7068 78.3306 30.498 78.5029 30.2592 78.6235C30.0205 78.7441 29.7579 78.8098 29.4905 78.816L29.6983 79.1488ZM24.6155 72.6067L29.5311 77.5644C29.5769 77.6053 29.6361 77.6279 29.6975 77.6279C29.7589 77.6279 29.8181 77.6053 29.8639 77.5644C29.8945 77.5219 29.911 77.4708 29.911 77.4183C29.911 77.3659 29.8945 77.3148 29.8639 77.2723L29.0311 73.6473C28.9655 73.3871 28.9918 73.1123 29.1058 72.8694C29.2197 72.6264 29.4141 72.4304 29.6561 72.3145C37.1176 68.7016 44.113 64.1963 50.4887 58.8974L47.0716 55.4803H41.4888L24.6155 72.6067Z" fill="#FF6C37"/>
+                    <path id="Vector_16" d="M19.1984 76.8988L23.3655 72.7317L29.7827 79.1488L19.5749 78.441C19.3997 78.4272 19.2332 78.3585 19.0994 78.2446C18.9655 78.1306 18.871 77.9773 18.8295 77.8065C18.7879 77.6357 18.8013 77.4561 18.8678 77.2934C18.9344 77.1307 19.0506 76.9931 19.2 76.9004L19.1984 76.8988Z" fill="white"/>
+                    <path id="Vector_17" d="M29.906 79.7739L19.739 79.0661C19.1359 79.0098 18.6171 78.5973 18.4046 78.0458C18.1921 77.4942 18.3218 76.8395 18.739 76.3989L22.9061 72.2317C23.046 72.0966 23.2328 72.0211 23.4272 72.0211C23.6216 72.0211 23.8085 72.0966 23.9483 72.2317L30.3232 78.6067C30.4115 78.7276 30.459 78.8734 30.459 79.0231C30.459 79.1728 30.4115 79.3186 30.3232 79.4395C30.2268 79.5953 30.0794 79.713 29.906 79.7723V79.7739ZM19.739 77.4411L28.0717 77.9832L23.4889 73.6911L19.739 77.4411Z" fill="#FF6C37"/>
+                    <path id="Vector_18" d="M48.0308 55.1928L39.6138 56.485L44.4887 51.6522L48.0308 55.1928Z" fill="white"/>
+                    <path id="Vector_19" d="M39.6138 57.274C39.4739 57.2777 39.336 57.2401 39.2174 57.1659C39.0987 57.0917 39.0046 56.9842 38.9466 56.8569C38.8579 56.7362 38.8101 56.5903 38.8101 56.4405C38.8101 56.2906 38.8579 56.1448 38.9466 56.024L43.7793 51.149C43.9259 51.0113 44.1196 50.9346 44.3207 50.9346C44.5219 50.9346 44.7155 51.0113 44.8621 51.149L48.4058 54.6897C48.4766 54.8019 48.5141 54.932 48.5141 55.0647C48.5141 55.1974 48.4766 55.3274 48.4058 55.4397C48.371 55.5765 48.2976 55.7004 48.1942 55.7966C48.0909 55.8927 47.962 55.9571 47.823 55.9819L39.4904 57.274H39.6138ZM44.4887 52.7319L41.7809 55.4397L46.448 54.7319L44.4887 52.7319Z" fill="#FF6C37"/>
+                    <path id="Vector_20" d="M48.0309 55.1898L42.156 55.9398C41.9988 55.9755 41.8342 55.9596 41.6868 55.8944C41.5393 55.8292 41.4168 55.7182 41.3374 55.578C41.2579 55.4377 41.2258 55.2755 41.2458 55.1155C41.2657 54.9555 41.3367 54.8063 41.4482 54.6898L44.4903 51.6476L48.0309 55.1898Z" fill="white"/>
+                    <path id="Vector_21" d="M41.9888 56.7335C41.7165 56.7308 41.4497 56.6562 41.2156 56.517C40.9815 56.3779 40.7884 56.1792 40.656 55.9413C40.4969 55.6561 40.4352 55.3267 40.4803 55.0032C40.5254 54.6798 40.6749 54.3799 40.906 54.1491L43.9482 51.1069C44.0948 50.9692 44.2884 50.8925 44.4896 50.8925C44.6907 50.8925 44.8844 50.9692 45.031 51.1069L48.5731 54.6491C48.6785 54.7489 48.7526 54.8771 48.7865 55.0182C48.8204 55.1593 48.8127 55.3072 48.7642 55.444C48.7158 55.5808 48.6287 55.7006 48.5135 55.7888C48.3983 55.8771 48.26 55.93 48.1153 55.9413L42.2826 56.6913L41.9888 56.7335ZM41.9888 55.1913L46.406 54.6491L44.4482 52.6913L41.9482 55.1913H41.9888ZM78.2385 25.0665C78.16 24.935 78.036 24.8369 77.8899 24.7908C77.7439 24.7447 77.5861 24.7539 77.4463 24.8165C77.3773 24.8514 77.3161 24.8999 77.2662 24.9589C77.2162 25.0179 77.1787 25.0864 77.1557 25.1602C77.1093 25.3092 77.1239 25.4705 77.1963 25.6087C77.4885 26.2227 77.4072 26.9493 76.9885 27.4836C76.9365 27.5351 76.8957 27.5968 76.8688 27.6649C76.8419 27.7329 76.8295 27.8058 76.8322 27.879C76.8338 28.0255 76.8894 28.1663 76.9885 28.2743C77.0954 28.3165 77.2144 28.3165 77.3213 28.2743C77.4183 28.2986 77.5202 28.296 77.6158 28.2665C77.7114 28.237 77.7971 28.1819 77.8635 28.1071C78.2066 27.687 78.4239 27.1784 78.4902 26.6401C78.5566 26.1018 78.4693 25.5557 78.2385 25.0649V25.0665Z" fill="#FF6C37"/>
+                    </g>
+                    </g>
+                </svg>
+                <p>Postman</p>
+            </div>
+
+        </section>
       </>
     );
   }
