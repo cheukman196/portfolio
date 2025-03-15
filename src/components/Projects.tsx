@@ -12,7 +12,7 @@ export default function Projects() {
   const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
-    fetch("/src/data/projects.json")
+    fetch("/data/projects.json")
       .then((res) => res.json())
       .then((data) => setProjects(data))
       .catch((error) => console.error("Failed to load projects:", error));
