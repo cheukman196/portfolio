@@ -12,5 +12,26 @@
     "technologies": ["C#", "ASP.NET Core", "Entity Framework Core", "SQL Server"],
     "image": "/images/projects_traveldot.png",
     "repo": "https://github.com/cheukman196/TravelDot"
+  },
+  {
+    "name": "WeatherLite",
+    "description": "WeatherLite is a lightweight weather app that provides real-time weather information. Users can search for weather information by city name and view the current weather, temperature, humidity and wind speed.",
+    "technologies": ["React", "OpenWeatherMap API"],
+    "image": "/images/projects_weatherlite.png",
+    "repo": "https://github.com/cheukman196/WeatherLite"
+  },
+  {
+    "name": "Portfolio",
+    "description": "Portfolio is a personal portfolio website that showcases my projects, skills and experiences. The website is built using React and Tailwind CSS.",
+    "technologies": ["React", "Tailwind CSS"],
+    "image": "/images/projects_portfolio.png",
+    "repo": "https://github.com/cheukman196/portfolio"
+  },
+  {
+    "name": "CurrencyConverter",
+    "description": "CurrencyConverter is a currency conversion app that allows users to convert between different currencies. Users can search for currency rates and convert between different currencies.",
+    "technologies": ["ReactNative", "Expo", "OpenExchangeRates API"],
+    "image": "/images/projects_currencyconverter.png",
+    "repo": "https://github.com/cheukman196/CurrencyConverter"
   }
-]
+] 
