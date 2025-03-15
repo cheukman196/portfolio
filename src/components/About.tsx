@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>  
-        <div className="max-w-lg my-10 p-2 text-white opacity-70 font-roboto font-[400] selection:bg-sky-400 selection:text-gray-800">
+        <div className="max-w-lg my-10 p-5 text-white opacity-70 font-roboto font-[400] selection:bg-sky-400 selection:text-gray-800">
             <p>I am a software developer with a passion for realizing users' needs with creative solutions. With a good understanding,
                of different languages and frameworks, I strive to use technology to create meaningful and impactful products that meet
                 the needs of others. 

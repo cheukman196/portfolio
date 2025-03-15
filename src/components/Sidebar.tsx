@@ -70,6 +70,12 @@ export default function Sidebar({ activeSection, setActiveSection }: SidebarProp
               MY RESUME &nbsp;
             </a>
           </div>
+
+          <div className="pt-4 hover:text-sky-400 hover:translate-x-6 transition delay-100 cursor-pointer flex">
+            <a href="/documents/cover_letter.pdf" target="_blank" className="flex items-center">
+              COVER LETTER &nbsp;
+            </a>
+          </div>
         </nav>
     </>
   );

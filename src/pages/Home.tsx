@@ -11,7 +11,7 @@ function Home() {
   const [activeSection, setActiveSection] = useState('about')
   return (
     <>
-        <div className='bg-gray-900 h-screen flex min-h-0 overflow-y-scroll scroll-smooth'>
+        <div className='bg-gray-900 h-screen min-h-screen flex overflow-y-scroll scroll-smooth'>
 
           <div className='flex flex-col size-20 flex-grow px-20 py-15 sticky top-0'>
             <Intro/>
