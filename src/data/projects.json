@@ -1,16 +1,16 @@
 [
-    {
-      "name": "FileEase",
-      "description": "FileEase is a file manager that has file browsing, bookmarking and custom directory creation features. Built using Python and PyQT6 framework, FileEase offers lightweight and self-explanatory features to manage your local files.",
-      "technologies": ["Python", "PyQT6"],
-      "image": "/images/projects_filease.png",
-      "repo": "https://github.com/cheukman196/FileEase"
-    },
-    {
-      "name": "TravelDot",
-      "description": "TravelDot is a travel bookings and reservation site that allows users to search, book and manage their travel plans. Users can comprehensively search for flights, hotels and car rentals.",
-      "technologies": ["C#", "ASP.NET Core", "Entity Framework Core", "SQL Server"],
-      "image": "/images/projects_traveldot.png",
-      "repo": "https://github.com/cheukman196/TravelDot"
-    }
-  ]
+  {
+    "name": "FileEase",
+    "description": "FileEase is a file manager that has file browsing, bookmarking and custom directory creation features. Built using Python and PyQT6 framework, FileEase offers lightweight and self-explanatory features to manage your local files.",
+    "technologies": ["Python", "PyQT6"],
+    "image": "/images/projects_filease.png",
+    "repo": "https://github.com/cheukman196/FileEase"
+  },
+  {
+    "name": "TravelDot",
+    "description": "TravelDot is a travel bookings and reservation site that allows users to search, book and manage their travel plans. Users can comprehensively search for flights, hotels and car rentals.",
+    "technologies": ["C#", "ASP.NET Core", "Entity Framework Core", "SQL Server"],
+    "image": "/images/projects_traveldot.png",
+    "repo": "https://github.com/cheukman196/TravelDot"
+  }
+]
